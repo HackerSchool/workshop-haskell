@@ -45,6 +45,7 @@ main =    interact $ unlines . map processLine . lines where
     -- 2.                      ^ por cada linha aplica a função processLine
     -- 3.            ^ pega na lista de resultados e junta-os numa sequência de linhas
     -- 4. ^ pega na função após o $, aplica-a ao input do programa e imprime o resultado
+
     -- Pega numa linha de texto, parte-a em tokens, avalia-a e converte o resultado em texto
     processLine :: String
                 -> String
